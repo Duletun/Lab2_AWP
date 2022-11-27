@@ -15,8 +15,8 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
 
-        int[][] matrixA = Matrix.generate(4, 4);
-        int[][] matrixB = Matrix.generate(4, 4);
+        int[][] matrixA = Matrix.generate(4, 5);
+        int[][] matrixB = Matrix.generate(5, 4);
 
         /////////////////////
         // 1 Часть задания //

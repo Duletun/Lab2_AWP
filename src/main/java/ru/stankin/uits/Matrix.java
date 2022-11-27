@@ -67,8 +67,8 @@ public class Matrix {
     }
 
     public static AtomicInteger[][] makeAtomic(int[][] matrix) {
-        int cols = matrix.length;
-        int rows = matrix[0].length;
+        int rows = matrix.length;
+        int cols = matrix[0].length;
 
         AtomicInteger[][] a_matrix = new AtomicInteger[rows][cols];
 
